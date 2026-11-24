@@ -1,0 +1,125 @@
+{
+  "experiment": "Structured JSON information extraction",
+  "runs": [
+    {
+      "run_id": "63209c82-7b53-4e52-8f63-0da7789edfaa",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:11:53.278507+00:00",
+      "completed_at": "2026-11-24T06:11:53.279731+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "input_text": "John paid 2500 rupees on 12 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: John paid 2500 rupees on 12 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "Payment of Rs. 1500 was made by Priya on 15 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: Payment of Rs. 1500 was made by Priya on 15 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "On 18 November 2026, Rahul transferred 3500.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: On 18 November 2026, Rahul transferred 3500.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "An amount of 800 was paid by Anjali on 20 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: An amount of 800 was paid by Anjali on 20 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "Suresh made a payment of 4200 rupees dated 22 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: Suresh made a payment of 4200 rupees dated 22 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    },
+    {
+      "run_id": "570d5d7b-16cc-4ea8-8a9b-fc0d94876470",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:16:05.562852+00:00",
+      "completed_at": "2026-11-24T06:16:05.564134+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "input_text": "John paid 2500 rupees on 12 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: John paid 2500 rupees on 12 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "Payment of Rs. 1500 was made by Priya on 15 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: Payment of Rs. 1500 was made by Priya on 15 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "On 18 November 2026, Rahul transferred 3500.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: On 18 November 2026, Rahul transferred 3500.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "An amount of 800 was paid by Anjali on 20 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: An amount of 800 was paid by Anjali on 20 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        },
+        {
+          "input_text": "Suresh made a payment of 4200 rupees dated 22 November 2026.",
+          "prompt": "Extract the payer name, transaction date, and amount from the text. Return only a JSON object matching the supplied schema. Preserve the date as written in the text and return amount as a number.\n\nText: Suresh made a payment of 4200 rupees dated 22 November 2026.",
+          "status": "blocked",
+          "error": {
+            "type": "RuntimeError",
+            "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    }
+  ]
+}

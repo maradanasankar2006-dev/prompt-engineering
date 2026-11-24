@@ -1,0 +1,225 @@
+{
+  "experiment": "Multi-step math reasoning",
+  "runs": [
+    {
+      "run_id": "addb288b-f929-4b75-8c9d-d875b459bf3d",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:11:53.264674+00:00",
+      "completed_at": "2026-11-24T06:11:53.265936+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "problem": "A shop has 48 notebooks and sells 19. How many notebooks remain?",
+          "expected_answer": "29",
+          "direct": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "Mira buys 3 pens for 12 rupees each and a notebook for 45 rupees. What is the total cost?",
+          "expected_answer": "81",
+          "direct": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A bus travels 180 kilometers in 3 hours at a constant speed. How far will it travel in 5 hours?",
+          "expected_answer": "300",
+          "direct": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A jacket costs 2400 rupees and is discounted by 25 percent. What is the sale price?",
+          "expected_answer": "1800",
+          "direct": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A baker makes 8 trays with 12 muffins on each tray and sells 37 muffins. How many muffins remain?",
+          "expected_answer": "59",
+          "direct": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    },
+    {
+      "run_id": "da723a2b-2d71-4553-a9b7-083817b473b7",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:16:05.548367+00:00",
+      "completed_at": "2026-11-24T06:16:05.549624+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "problem": "A shop has 48 notebooks and sells 19. How many notebooks remain?",
+          "expected_answer": "29",
+          "direct": {
+            "status": "blocked",
+            "prompt": "Solve this word problem and state the final numerical answer clearly.\n\nA shop has 48 notebooks and sells 19. How many notebooks remain?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "prompt": "Solve this word problem. Show a concise, numbered solution with the calculations and finish with 'Final answer: <number>'.\n\nA shop has 48 notebooks and sells 19. How many notebooks remain?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "Mira buys 3 pens for 12 rupees each and a notebook for 45 rupees. What is the total cost?",
+          "expected_answer": "81",
+          "direct": {
+            "status": "blocked",
+            "prompt": "Solve this word problem and state the final numerical answer clearly.\n\nMira buys 3 pens for 12 rupees each and a notebook for 45 rupees. What is the total cost?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "prompt": "Solve this word problem. Show a concise, numbered solution with the calculations and finish with 'Final answer: <number>'.\n\nMira buys 3 pens for 12 rupees each and a notebook for 45 rupees. What is the total cost?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A bus travels 180 kilometers in 3 hours at a constant speed. How far will it travel in 5 hours?",
+          "expected_answer": "300",
+          "direct": {
+            "status": "blocked",
+            "prompt": "Solve this word problem and state the final numerical answer clearly.\n\nA bus travels 180 kilometers in 3 hours at a constant speed. How far will it travel in 5 hours?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "prompt": "Solve this word problem. Show a concise, numbered solution with the calculations and finish with 'Final answer: <number>'.\n\nA bus travels 180 kilometers in 3 hours at a constant speed. How far will it travel in 5 hours?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A jacket costs 2400 rupees and is discounted by 25 percent. What is the sale price?",
+          "expected_answer": "1800",
+          "direct": {
+            "status": "blocked",
+            "prompt": "Solve this word problem and state the final numerical answer clearly.\n\nA jacket costs 2400 rupees and is discounted by 25 percent. What is the sale price?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "prompt": "Solve this word problem. Show a concise, numbered solution with the calculations and finish with 'Final answer: <number>'.\n\nA jacket costs 2400 rupees and is discounted by 25 percent. What is the sale price?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "problem": "A baker makes 8 trays with 12 muffins on each tray and sells 37 muffins. How many muffins remain?",
+          "expected_answer": "59",
+          "direct": {
+            "status": "blocked",
+            "prompt": "Solve this word problem and state the final numerical answer clearly.\n\nA baker makes 8 trays with 12 muffins on each tray and sells 37 muffins. How many muffins remain?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "step_by_step": {
+            "status": "blocked",
+            "prompt": "Solve this word problem. Show a concise, numbered solution with the calculations and finish with 'Final answer: <number>'.\n\nA baker makes 8 trays with 12 muffins on each tray and sells 37 muffins. How many muffins remain?",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    }
+  ]
+}

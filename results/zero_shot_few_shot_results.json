@@ -1,0 +1,225 @@
+{
+  "experiment": "Zero-shot vs few-shot sentiment classification",
+  "runs": [
+    {
+      "run_id": "64e19efc-0b94-46a8-af1f-d4952fccde0d",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:11:53.250481+00:00",
+      "completed_at": "2026-11-24T06:11:53.253041+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "review": "The package arrived early and the product works perfectly.",
+          "expected": "Positive",
+          "zero_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "The item broke after one use and support never replied.",
+          "expected": "Negative",
+          "zero_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "The order arrived today. I have not tried it yet.",
+          "expected": "Neutral",
+          "zero_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "Good quality, but it took far too long to arrive.",
+          "expected": "Negative",
+          "zero_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "Exactly what I needed; I would happily buy it again.",
+          "expected": "Positive",
+          "zero_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    },
+    {
+      "run_id": "37b7498b-d926-4e9f-a018-1570ff5c9546",
+      "model": "gemini-2.5-flash",
+      "started_at": "2026-11-24T06:16:05.529942+00:00",
+      "completed_at": "2026-11-24T06:16:05.531991+00:00",
+      "status": "blocked",
+      "api_calls_attempted": 0,
+      "api_calls_succeeded": 0,
+      "entries": [
+        {
+          "review": "The package arrived early and the product works perfectly.",
+          "expected": "Positive",
+          "zero_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nReview: \"The package arrived early and the product works perfectly.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nExamples:\nReview: \"The screen is bright and easy to read.\"\nSentiment: Positive\nReview: \"It stopped working the same day.\"\nSentiment: Negative\nReview: \"The parcel is on my desk; I have not opened it.\"\nSentiment: Neutral\nReview: \"The food tasted fresh and arrived warm.\"\nSentiment: Positive\n\nReview: \"The package arrived early and the product works perfectly.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "The item broke after one use and support never replied.",
+          "expected": "Negative",
+          "zero_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nReview: \"The item broke after one use and support never replied.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nExamples:\nReview: \"The screen is bright and easy to read.\"\nSentiment: Positive\nReview: \"It stopped working the same day.\"\nSentiment: Negative\nReview: \"The parcel is on my desk; I have not opened it.\"\nSentiment: Neutral\nReview: \"The food tasted fresh and arrived warm.\"\nSentiment: Positive\n\nReview: \"The item broke after one use and support never replied.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "The order arrived today. I have not tried it yet.",
+          "expected": "Neutral",
+          "zero_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nReview: \"The order arrived today. I have not tried it yet.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nExamples:\nReview: \"The screen is bright and easy to read.\"\nSentiment: Positive\nReview: \"It stopped working the same day.\"\nSentiment: Negative\nReview: \"The parcel is on my desk; I have not opened it.\"\nSentiment: Neutral\nReview: \"The food tasted fresh and arrived warm.\"\nSentiment: Positive\n\nReview: \"The order arrived today. I have not tried it yet.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "Good quality, but it took far too long to arrive.",
+          "expected": "Negative",
+          "zero_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nReview: \"Good quality, but it took far too long to arrive.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nExamples:\nReview: \"The screen is bright and easy to read.\"\nSentiment: Positive\nReview: \"It stopped working the same day.\"\nSentiment: Negative\nReview: \"The parcel is on my desk; I have not opened it.\"\nSentiment: Neutral\nReview: \"The food tasted fresh and arrived warm.\"\nSentiment: Positive\n\nReview: \"Good quality, but it took far too long to arrive.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        },
+        {
+          "review": "Exactly what I needed; I would happily buy it again.",
+          "expected": "Positive",
+          "zero_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nReview: \"Exactly what I needed; I would happily buy it again.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          },
+          "few_shot": {
+            "status": "blocked",
+            "prompt": "Classify the customer review as exactly one of Positive, Negative, or Neutral. Respond with only the label.\n\nExamples:\nReview: \"The screen is bright and easy to read.\"\nSentiment: Positive\nReview: \"It stopped working the same day.\"\nSentiment: Negative\nReview: \"The parcel is on my desk; I have not opened it.\"\nSentiment: Neutral\nReview: \"The food tasted fresh and arrived warm.\"\nSentiment: Positive\n\nReview: \"Exactly what I needed; I would happily buy it again.\"\nSentiment:",
+            "error": {
+              "type": "RuntimeError",
+              "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+            }
+          }
+        }
+      ],
+      "setup_error": {
+        "type": "RuntimeError",
+        "message": "GEMINI_API_KEY is missing. Set it in your environment or add GEMINI_API_KEY=your_key_here to a local .env file."
+      }
+    }
+  ]
+}
